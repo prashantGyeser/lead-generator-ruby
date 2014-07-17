@@ -7,7 +7,7 @@ RSpec.describe KeywordChecker do
   end
 
   it "should ignore case when checking a keyword" do
-    expect(KeywordChecker.keyword_in_tweet?("Salsa")).to eq(true)
+    expect(KeywordChecker.keyword_in_tweet?("I love Salsa")).to eq(true)
   end
 
   it "should not match a substring keyword" do

@@ -1,4 +1,4 @@
 require_relative 'lib/location_checker'
+require_relative 'lib/keyword_checker'
 
-#LocationChecker.preferred_location_check(["new york"], "new york")
 
