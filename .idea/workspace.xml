@@ -17,8 +17,8 @@
     <file path="/spec_helper.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405602835052" ignored="false" />
     <file path="/processor.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405600903168" ignored="false" />
     <file path="/Dummy.txt" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405601106199" ignored="false" />
-    <file path="/keyword_checker.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405604622559" ignored="false" />
-    <file path="/keyword_checker_spec.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405604466653" ignored="false" />
+    <file path="/keyword_checker.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405605011323" ignored="false" />
+    <file path="/keyword_checker_spec.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405605077721" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,46 +38,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="access_mongohq.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/experiements/access_mongohq.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="2" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="location_checker.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/location_checker.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="keyword_checker.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="keyword_checker.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/keyword_checker.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="207" selection-start="452" selection-end="452" vertical-scroll-proportion="0.49069375">
+            <state line="12" column="11" selection-start="591" selection-end="618" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keyword_checker_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="keyword_checker_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/lib/keyword_checker_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="11" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="21" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
+            <state line="25" column="53" selection-start="842" selection-end="842" vertical-scroll-proportion="0.905691">
               <folding />
             </state>
           </provider>
@@ -113,8 +86,8 @@
         <option value="$PROJECT_DIR$/processor.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/lib/location_checker_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/lib/keyword_checker_spec.rb" />
         <option value="$PROJECT_DIR$/lib/keyword_checker.rb" />
+        <option value="$PROJECT_DIR$/spec/lib/keyword_checker_spec.rb" />
       </list>
     </option>
   </component>
@@ -468,13 +441,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/lib/location_checker_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="21" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
@@ -489,23 +455,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/lib/keyword_checker_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/location_checker.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+        <state line="5" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.23577236">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/location_checker.rb">
+    <entry file="file://$PROJECT_DIR$/spec/lib/location_checker_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/keyword_checker.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="207" selection-start="452" selection-end="452" vertical-scroll-proportion="0.49069375">
+        <state line="12" column="11" selection-start="591" selection-end="618" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/lib/keyword_checker_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="53" selection-start="842" selection-end="842" vertical-scroll-proportion="0.905691">
           <folding />
         </state>
       </provider>
