@@ -1,4 +1,5 @@
 require 'sequel'
+require 'lib/twitter_datasource'
 
 RSpec.describe TwitterDatasource do
 
@@ -8,7 +9,7 @@ RSpec.describe TwitterDatasource do
     dataset = database_connection[:post_backlogs]
     result_set = dataset.where(screen_name: "something_something"  )
     p result_set
-    #expect(result_set).to
+    expect(result_set).to eq("test")
 
 
   end
