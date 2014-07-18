@@ -11,20 +11,20 @@
     <file path="/access_mongohq.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405569733607" ignored="false" />
     <file path="/Gemfile" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405613863501" ignored="false" />
     <file path="/access_mongohq_spec.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405569941727" ignored="false" />
-    <file path="/location_checker.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405605679521" ignored="false" />
-    <file path="/a.dummy" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405571418823" ignored="false" />
-    <file path="/location_checker_spec.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405620636446" ignored="false" />
+    <file path="/location_checker.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405671176371" ignored="false" />
+    <file path="/a.dummy" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405667401752" ignored="false" />
+    <file path="/location_checker_spec.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405671107061" ignored="false" />
     <file path="/spec_helper.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405620381330" ignored="false" />
-    <file path="/processor.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405617978928" ignored="false" />
-    <file path="/Dummy.txt" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405621749615" ignored="false" />
-    <file path="/keyword_checker.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405662484572" ignored="false" />
+    <file path="/processor.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405690950114" ignored="false" />
+    <file path="/Dummy.txt" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405663005329" ignored="false" />
+    <file path="/keyword_checker.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405685643435" ignored="false" />
     <file path="/keyword_checker_spec.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405662616623" ignored="false" />
     <file path="/datasources.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405618026803" ignored="false" />
     <file path="/create_posts_backlog.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405613299307" ignored="false" />
     <file path="/Rakefile" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405615310110" ignored="false" />
-    <file path="/data_collector.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405618400111" ignored="false" />
-    <file path="/twitter_datasource.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405618470294" ignored="false" />
-    <file path="/twitter_datasource_spec.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405620845049" ignored="false" />
+    <file path="/data_collector.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405665784601" ignored="false" />
+    <file path="/twitter_datasource.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405665037363" ignored="false" />
+    <file path="/twitter_datasource_spec.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405665649712" ignored="false" />
     <file path="$PROJECT_DIR$/../lead-generator-webapp/app/assets/stylesheets/application.css" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405622435167" ignored="false" />
     <file path="$PROJECT_DIR$/../lead-generator-webapp/app/views/home/index.html.erb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405631599494" ignored="false" />
     <file path="$PROJECT_DIR$/../lead-generator-webapp/app/views/layouts/application.html.erb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405631032902" ignored="false" />
@@ -33,6 +33,10 @@
     <file path="/index.html.erb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405631557602" ignored="false" />
     <file path="$PROJECT_DIR$/../lead-generator-webapp/config/routes.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405630997843" ignored="false" />
     <file path="/routes.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405630997842" ignored="false" />
+    <file path="/1_create_processed_posts.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405668659000" ignored="false" />
+    <file path="/backlog_processor_spec.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405667733973" ignored="false" />
+    <file path="/url_checker.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405672738939" ignored="false" />
+    <file path="/url_checker_spec.rb" changelist="2c500510-7d02-487d-949f-fb81ae4d8098" time="1405673014702" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,43 +59,52 @@
       <file leaf-file-name="keyword_checker.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/keyword_checker.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="11" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
+            <state line="7" column="21" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keyword_checker_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/lib/keyword_checker_spec.rb">
+      <file leaf-file-name="processor.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/processor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="5" selection-start="1374" selection-end="1374" vertical-scroll-proportion="0.0">
+            <state line="31" column="7" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.90186125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_collector.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_collector.rb">
+      <file leaf-file-name="url_checker.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/url_checker.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="45" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
+            <state line="4" column="34" selection-start="89" selection-end="112" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twitter_datasource.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/twitter_datasource.rb">
+      <file leaf-file-name="url_checker_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/lib/url_checker_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="13" column="91" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twitter_datasource_spec.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/lib/twitter_datasource_spec.rb">
+      <file leaf-file-name="location_checker_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/lib/location_checker_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="16" selection-start="428" selection-end="428" vertical-scroll-proportion="0.4111675">
+            <state line="2" column="33" selection-start="32" selection-end="65" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="location_checker.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/location_checker.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="122" selection-start="110" selection-end="201" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,22 +120,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/location_checker.rb" />
-        <option value="$PROJECT_DIR$/db/migrations/create_posts_backlog.rb" />
-        <option value="$PROJECT_DIR$/db/migrations/create_post_backlogs.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/lib/tasks/sequel_migration.rake" />
-        <option value="$PROJECT_DIR$/Rakefile" />
-        <option value="$PROJECT_DIR$/processor.rb" />
-        <option value="$PROJECT_DIR$/lib/datasources.rb" />
-        <option value="$PROJECT_DIR$/lib/twitter_datasource.rb" />
         <option value="$PROJECT_DIR$/.rspec" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
-        <option value="$PROJECT_DIR$/spec/lib/location_checker_spec.rb" />
-        <option value="$PROJECT_DIR$/data_collector.rb" />
-        <option value="$PROJECT_DIR$/spec/lib/twitter_datasource_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/keyword_checker.rb" />
         <option value="$PROJECT_DIR$/spec/lib/keyword_checker_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/lib/twitter_datasource_spec.rb" />
+        <option value="$PROJECT_DIR$/data_collector.rb" />
+        <option value="$PROJECT_DIR$/lib/twitter_datasource.rb" />
+        <option value="$PROJECT_DIR$/db/migrations/1_create_processed_posts.rb" />
+        <option value="$PROJECT_DIR$/lib/backlog_processor.rb" />
+        <option value="$PROJECT_DIR$/spec/lib/backlog_processor_spec.rb" />
+        <option value="$PROJECT_DIR$/db/migrations/2_create_processed_posts.rb" />
+        <option value="$PROJECT_DIR$/spec/lib/location_checker_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/location_checker.rb" />
+        <option value="$PROJECT_DIR$/lib/url_checker.rb" />
+        <option value="$PROJECT_DIR$/spec/lib/url_checker_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/keyword_checker.rb" />
+        <option value="$PROJECT_DIR$/processor.rb" />
       </list>
     </option>
   </component>
@@ -158,6 +171,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,24 +232,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fixtures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lead-generator-ruby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lead-generator-ruby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -274,7 +270,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -376,17 +371,17 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23980816" sideWeight="0.6708075" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24860112" sideWeight="0.6708075" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -453,94 +448,94 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="68" selection-start="494" selection-end="494" vertical-scroll-proportion="0.6601626" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiements/initial_exp.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiements/access_mongohq.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="2" selection-start="1095" selection-end="1095" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/location_checker.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="11" selection-start="33" selection-end="62" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="9" selection-start="100" selection-end="100" vertical-scroll-proportion="0.42439026">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="73" selection-start="67" selection-end="114" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrations/1_create_post_backlogs.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="31" selection-start="46" selection-end="59" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processor.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.rspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="22" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="44" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/lib/location_checker_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="16" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/keyword_checker.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="11" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="121" selection-start="580" selection-end="671" vertical-scroll-proportion="0.70731705" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/lib/keyword_checker_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="5" selection-start="1374" selection-end="1374" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="36" column="9" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.4813008" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_collector.rb">
+    <entry file="file://$PROJECT_DIR$/lib/backlog_processor.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="18" selection-end="18" vertical-scroll-proportion="0.09813875" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="73" selection-start="43" selection-end="114" vertical-scroll-proportion="0.04715447" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.rspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="22" selection-start="63" selection-end="63" vertical-scroll-proportion="0.14146341" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrations/1_create_post_backlogs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="11" selection-start="120" selection-end="120" vertical-scroll-proportion="0.23577236" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrations/2_create_processed_posts.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="27" selection-start="132" selection-end="132" vertical-scroll-proportion="0.18861789" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/twitter_datasource.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="15" column="32" selection-start="528" selection-end="584" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_collector.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="33" selection-start="0" selection-end="33" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/keyword_checker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="21" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/lib/twitter_datasource_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/url_checker.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="428" selection-end="428" vertical-scroll-proportion="0.4111675">
+        <state line="4" column="34" selection-start="89" selection-end="112" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/lib/url_checker_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="91" selection-start="541" selection-end="541" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/lib/location_checker_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="33" selection-start="32" selection-end="65" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/location_checker.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="122" selection-start="110" selection-end="201" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="7" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.90186125">
           <folding />
         </state>
       </provider>
