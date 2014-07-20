@@ -7,7 +7,7 @@ require 'csv'
 
 csv_file_path = '../lead-generator-sample-data/mongo_tweets_for_dance.csv'
 csv_output_file_path = '../lead-generator-sample-data/results_no_cities.csv'
-
+csv_classifier_negative_file_path = '../lead-generator-sample-data/negative_results.csv'
 
 CSV.foreach(csv_file_path) do |row|
   tweet_text = row[0]
@@ -22,10 +22,18 @@ CSV.foreach(csv_file_path) do |row|
         CSV.open(csv_output_file_path, 'a+') do |csv|
           csv << [tweet_text, tweet_location, tweet_screen_name]
         end
+      else
+        CSV.open(csv_classifier_negative_file_path, 'a+') do |csv|
+          csv << [tweet_text, tweet_location, tweet_screen_name]
+        end
       end
     else
       if KeywordChecker.positive_operator_in_tweet?(tweet_text)
         CSV.open(csv_output_file_path, 'a+') do |csv|
+          csv << [tweet_text, tweet_location, tweet_screen_name]
+        end
+      else
+        CSV.open(csv_classifier_negative_file_path, 'a+') do |csv|
           csv << [tweet_text, tweet_location, tweet_screen_name]
         end
       end

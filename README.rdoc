@@ -1,4 +1,4 @@
-### Installation guide
+# Installation guide
 
 Setup rvm
 Create a Gemfile in the root of the directory and add the following
@@ -8,4 +8,9 @@ Create a ruby file in the root of the project directory and call it treat_setup.
     require 'treat'
     Treat::Core::Installer.install 'english'
 Run the file using ruby treat_setup.py and wait for the installation to complete
+
+# Useful commands
+### Split a csv file into multiple parts
+split -l 100 data.csv
+Read http://stackoverflow.com/a/20034041
 
