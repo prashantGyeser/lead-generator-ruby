@@ -7,4 +7,4 @@ gem 'rake'
 # Classifier
 gem 'stuff-classifier'
 gem 'reclassifier'
-#gem 'rb-gsl'
+gem 'rb-gsl'

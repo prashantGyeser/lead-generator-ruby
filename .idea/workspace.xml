@@ -90,10 +90,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server_connection_details.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.42439026">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server_connection_details.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server_connection_details.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="240" selection-end="337" vertical-scroll-proportion="0.28292683">
+            <state line="8" column="0" selection-start="240" selection-end="337" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -123,8 +132,8 @@
         <option value="$PROJECT_DIR$/bayesian_processor.rb" />
         <option value="$PROJECT_DIR$/test_lsi.rb" />
         <option value="$PROJECT_DIR$/server_connection_details.txt" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/lsi_classifier.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -472,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -495,7 +497,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/server_connection_details.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="240" selection-end="337" vertical-scroll-proportion="0.28292683">
+        <state line="8" column="0" selection-start="240" selection-end="337" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="0.42439026">
           <folding />
         </state>
       </provider>
