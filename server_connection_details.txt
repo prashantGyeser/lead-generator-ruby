@@ -1,0 +1,25 @@
+# Command to connect to the amazon server
+First run chmod 600 key_file_name.pem
+ssh -i /directory/keyname.pem ubuntu@ec2-xx.compute-1.amazonaws.com
+
+Server name: ec2-54-210-103-140.compute-1.amazonaws.com
+
+Current server connection details
+ssh -l ubuntu -i /home/prashant/Downloads/lsi_key.pem ec2-54-210-103-140.compute-1.amazonaws.com
+
+ssh -l USERNAME_HERE -i .ssh/yourkey.pem public-ec2-host
+
+
+s3 reader account details
+Access Key Id: AKIAJQBGIJU5QJKHTUEQ
+Secret Access Key: lw/X6snG8tyElWMxd6bVOO0kUBFUehJsx7Eczueu
+
+To fix the invalid ASCII issue run
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+bundle
+
+Installing gsl
+sudo apt-get install gsl-bin libgsl0-dev
+

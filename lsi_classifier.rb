@@ -1,6 +1,6 @@
 $:.unshift File.dirname(__FILE__)
 
-require 'classifier'
+require 'reclassifier'
 require 'lib/location_checker'
 require 'lib/keyword_checker'
 require 'lib/url_checker'
@@ -12,7 +12,7 @@ non_leads_csv_output_file_path = '../lead-generator-sample-data/lsi_classificati
 lead_tweet_list_path = "/home/prashant/Documents/lead-generator-sample-data/training-data/positive_input_for_classifier.csv"
 nonlead_tweet_list_path = "/home/prashant/Documents/lead-generator-sample-data/training-data/negative_input_for_classifier.csv"
 
-latent_semantic_index = Classifier::LSI.new
+latent_semantic_index = Reclassifier::LSI.new
 puts "LSI initialized"
 ########################################################################
 # Training the bayesian classifier#
@@ -30,7 +30,13 @@ CSV.foreach(nonlead_tweet_list_path) do |row|
   training_data_array << training_array_item_nonlead
 end
 puts "Starting training..."
-training_data_array.each { |x| latent_semantic_index.add_item x.first, x.last}
+#training_data_array.each { |x| latent_semantic_index.add_item x.first, x.last}
+count = 1
+training_data_array.each do |item|
+  puts count
+  latent_semantic_index.add_item item.first, item.last
+  count = count + 1
+end
 
 ########################################################################
 # Running the LSI on all the current tweets #

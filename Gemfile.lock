@@ -1,20 +1,22 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    birch (0.0.8)
-    bson (1.10.2)
-    classifier (1.3.4)
-      fast-stemmer (>= 1.0.0)
+    activesupport (4.1.4)
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
     diff-lcs (1.2.5)
     fast-stemmer (1.0.2)
+    i18n (0.6.11)
     json (1.8.1)
-    mime-types (1.25.1)
-    mongo (1.10.2)
-      bson (= 1.10.2)
+    minitest (5.4.0)
     msgpack (0.5.8)
-    pg (0.17.1)
-    progressbar (0.21.0)
     rake (10.1.0)
+    reclassifier (0.4.11)
+      activesupport
+      fast-stemmer
     rspec (3.0.0)
       rspec-core (~> 3.0.0)
       rspec-expectations (~> 3.0.0)
@@ -27,10 +29,6 @@ GEM
     rspec-mocks (3.0.2)
       rspec-support (~> 3.0.0)
     rspec-support (3.0.2)
-    rubyzip (0.9.9)
-    schiphol (1.0.1)
-      progressbar (>= 0.10.0)
-      rubyzip (~> 0.9.9)
     sequel (4.12.0)
     sqlite3 (1.3.9)
     stuff-classifier (0.5)
@@ -38,23 +36,15 @@ GEM
       msgpack
       sequel
       sqlite3
-    treat (2.0.9)
-      birch
-      schiphol
-      yomu
-    yomu (0.2.0)
-      json (~> 1.8)
-      mime-types (~> 1.23)
+    thread_safe (0.3.4)
+    tzinfo (1.2.1)
+      thread_safe (~> 0.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  classifier
-  mongo
-  pg
   rake
+  reclassifier
   rspec
-  sequel
   stuff-classifier
-  treat
